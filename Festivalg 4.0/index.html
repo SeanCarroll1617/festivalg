@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans|Roboto" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet"/>
+  <script type="text/javascript" src="js/script.js"></script>
+  <title> Festivalg </title>
+</head>
+
+<!--Load random background image  -->
+<body id="bg" onload="randombg()">
+
+<!-- sticky Header -->
+<div class="header"><a href="#"> <b>+</b> tilføj festival</a></div>
+<center>
+
+  <!--Logo  -->
+<div class="logo"><h1> FESTIVALG </h1></div>
+
+<!-- Searchbar  -->
+<form autocomplete="off" action="action_page.php">
+  <div class="autocomplete" style="width:300px;">
+  <input id="myInput" type="text" name="myFestival" placeholder="">
+  </div>
+  <input id="search" type="image" src="img/search.svg" alt="search" height="40">
+</form>
+
+<!--Searchbar auto suggests input  -->
+<script type="text/javascript" src="js/searchbar.js"></script>
+
+<!--subtext  -->
+<div class="subtext">
+<p> Så mange valg, så mange genre, så meget at opleve </p>
+<p> søg igennem danske festivaller og find din favorit </p>
+</div>
+</center>
+
+<!--footer (duh!)  -->
+<footer class="footer"><center><p>Made by Simon Eliasen © 2018</p></center></footer>
+</body>
+</html>
